@@ -4,6 +4,5 @@ project(autonumos_machine_swarm_manager)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(autonumos_machine_swarm_manager main.cpp
-        machine.cpp
         machine.h
-        number.h)
+)
