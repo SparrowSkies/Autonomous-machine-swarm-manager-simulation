@@ -8,24 +8,15 @@
 
 struct numberStruct
 {
-    bool negative = false;
-    long long whole;
-    long long decimal;
+    double numb;
 };
 
 struct namedNumber
 {
     std::string NAME;
-    bool negative = false;
-    long long whole;
-    long long decimal;
+    double numb;
 };
 
-void addNumber(namedNumber& numToChange, namedNumber addNum)
-{
-    numToChange.whole = numToChange.whole + addNum.whole;
-    numToChange.decimal = numToChange.decimal + addNum.decimal;
-}
 
 
 
